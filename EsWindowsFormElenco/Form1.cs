@@ -7,10 +7,8 @@ namespace EsWindowsFormElenco
             InitializeComponent();
         }
         private void btn_aggiungi_Click(object sender, EventArgs e)
-        {
-            string agg;
-            agg = txt_input.Text;      
-            lst_elenco.Items.Add(agg);
+        {     
+            lst_elenco.Items.Add(txt_input.Text);
         }
         private void btn_canc_Click(object sender, EventArgs e)
         {
